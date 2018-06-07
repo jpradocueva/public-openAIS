@@ -6,7 +6,7 @@
         * this information is contained in a ```DDF.xml``` file located in GitHub
         
     * **Common.xml**: 
-        * the reusable resources defined in [OMNA LwM2M ](http://www.openmobilealliance.org/wp/OMNA/LwM2M/LwM2MRegistry.html).
+        * the reusable resources defined in [OMNA LwM2M Registry](http://www.openmobilealliance.org/wp/OMNA/LwM2M/LwM2MRegistry.html).
         * this information is contained in a ```Common.xml``` file located in GitHub.
         
     * **LwM2M Registry API**:
