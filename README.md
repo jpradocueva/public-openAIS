@@ -1,6 +1,6 @@
 # Tools
 **[LwM2M Validator](http://devtoolkit.openmobilealliance.org/OEditor/OMNAVerify)**
-  * Allows validate content in:
+  * It validates content in:
     * **DDF.xml file**: 
         * the metadata information published in [OMNA LwM2M Registry](http://www.openmobilealliance.org/wp/OMNA/LwM2M/LwM2MRegistry.html).
         * this information is contained in a ```DDF.xml``` file located in GitHub
@@ -15,6 +15,8 @@
     * **Single Object**: 
         * in a publically available URL that describe a LwM2M Object. 
         * It is possible to validate a LwM2M Object stored in GitHub, just use the "Raw" link that contains the Object.
+        
+    * The error codes provided by the tool can be found here: [Error Codes](https://wiki.openmobilealliance.org/display/TOOL/Validation+Criteria+for+OMNA+LwM2M+Registry)    
     
 **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Default)**
  * The LwM2M Editor allows to: create, view, update, add a license, import, export and register a LwM2M Object
