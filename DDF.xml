@@ -2321,7 +2321,7 @@
     <Item>
         <ObjectID>3405</ObjectID>
         <URN>urn:oma:lwm2m:ext:3405</URN>
-        <Name>oA Security</Name>
+        <Name>oA OGC-SecurityN</Name>
         <Description>The 'oA Security' provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server in context of OpenAIS. 
          One Object Instance SHOULD address a LWM2M Bootstrap Server.
          \nThese LWM2M Object Resources MUST only be changed by a LWM2M Bootstrap Server or Bootstrap from Smartcardand MUST NOT be accessible by any other LWM2M Server.</Description>
