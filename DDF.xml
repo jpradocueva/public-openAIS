@@ -2217,7 +2217,7 @@
     </Item>
     <Item>
         <ObjectID>10254</ObjectID>
-        <URN>urn:oma:lwm2m:x:10254</URN>
+        <URN>urn:oma:lwm2m:x:10254:1.0</URN>
         <Name>Current Loop Input</Name>
         <Description>This LwM2M Object provides a representation of a current loop sensor, which indicates the value emitted by a current source.</Description>
         <Owner>World-Direct eBusiness</Owner>
