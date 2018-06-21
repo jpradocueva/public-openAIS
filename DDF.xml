@@ -97,7 +97,7 @@
     <Item>
         <ObjectID>5</ObjectID>
         <URN>urn:oma:lwm2m:oma:5</URN>
-        <Name>Firmware</Name>
+        <Name>Firmware Update</Name>
         <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -160,7 +160,7 @@
     <Item>
         <ObjectID>9</ObjectID>
         <URN>urn:oma:lwm2m:oma:9</URN>
-        <Name>LWM2M Sofware Management</Name>
+        <Name>LWM2M Software Management</Name>
         <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
