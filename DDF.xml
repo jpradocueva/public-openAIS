@@ -97,7 +97,7 @@
     <Item>
         <ObjectID>5</ObjectID>
         <URN>urn:oma:lwm2m:oma:5</URN>
-        <Name>Firmware</Name>
+        <Name>Firmware Update</Name>
         <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -160,7 +160,7 @@
     <Item>
         <ObjectID>9</ObjectID>
         <URN>urn:oma:lwm2m:oma:9</URN>
-        <Name>LWM2M Sofware Management</Name>
+        <Name>LWM2M Software Management</Name>
         <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -198,7 +198,7 @@
         <Source>0</Source>
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-v1_0.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
+        <LWM2M>http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/11</Vorto>
         <DDFLink>1</DDFLink>
         <TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
