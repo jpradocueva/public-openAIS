@@ -3102,21 +3102,4 @@
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
-
-    <Item>
-        <ObjectID>10300</ObjectID>
-        <URN>urn:oma:lwm2m:x:10300</URN>
-        <Name>Pending</Name>
-        <Description>Pending</Description>
-        <Owner>Huawei</Owner>
-        <Source>2</Source>
-
-        <Ver>1.0</Ver>
-        <DDF></DDF>
-        <LWM2M></LWM2M>
-        <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
-        <TS></TS>
-        <TSLink>0</TSLink>
-    </Item>
 </DDFList>
