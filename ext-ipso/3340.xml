@@ -21,7 +21,7 @@
             </Item>
             <Item ID="5538">
                 <Name>Remaining Time</Name>
-                <Operations>R</Operations>
+                <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
                 <Type>Float</Type>
