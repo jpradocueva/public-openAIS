@@ -9,7 +9,7 @@
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Resources>
-            <Item ID="5805">
+            <Item ID="5700">
                 <Name>Sensor Value</Name>
                 <Operations>R</Operations>
                 <MultipleInstances>Single</MultipleInstances>
@@ -30,7 +30,7 @@
                 <Description>Measurement Units Definition e.g. “Cel” for Temperature in Celsius.</Description>
             </Item>
             <Item ID="5822">
-                <Name>Reset Cumulative Energy</Name>
+                <Name>Reset Cumulative energy</Name>
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>

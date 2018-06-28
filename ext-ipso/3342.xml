@@ -29,7 +29,7 @@
                 <Description>The number of times the input transitions from 0 to 1.</Description>
             </Item>
             <Item ID="5852">
-                <Name>On Time</Name>
+                <Name>On time</Name>
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
