@@ -25,8 +25,25 @@
         <!-- 0 => if link to object should not be visible, 1 => if object should be visible (default) -->
         <DDFLink>1</DDFLink>
         <!-- URL to the TS of the object, not visible, not used -->
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <!-- 0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
+        <TSLink>1</TSLink>
+    </Item>
+    
+        <Item>
+        <ObjectID>0</ObjectID>
+        <URN>urn:oma:lwm2m:oma:0:1.1</URN>
+        <Name>LWM2M Security</Name>
+        <Description>This LwM2M Object provides the keying material of a LwM2M Client appropriate to access a specified LwM2M Server. One Object Instance SHOULD address a LwM2M Bootstrap-Server.
+         These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or Bootstrap from Smartcard and MUST NOT be accessible by any other LwM2M Server.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Security-v1_1.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2fLWM2M_Security-v1_1.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -42,7 +59,23 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Server-v1_0.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/1</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    
+        <Item>
+        <ObjectID>1</ObjectID>
+        <URN>urn:oma:lwm2m:oma:1:1.1</URN>
+        <Name>LwM2M Server</Name>
+        <Description>This LwM2M Objects provides the data related to a LwM2M Server. A Bootstrap-Server has no such an Object Instance associated to it.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Server-v1_1.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Server-v1_1.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -58,7 +91,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180612-C/OMA-TS-LightweightM2M_Core-V1_1-20180612-C.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -70,11 +103,11 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0_2.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0_2.xml</LWM2M>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0_3.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0_3.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180612-C/OMA-TS-LightweightM2M_Core-V1_1-20180612-C.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -90,7 +123,23 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/4</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180612-C/OMA-TS-LightweightM2M_Core-V1_1-20180612-C.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    
+        <Item>
+        <ObjectID>4</ObjectID>
+        <URN>urn:oma:lwm2m:oma:4:1.1</URN>
+        <Name>Connectivity Monitoring</Name>
+        <Description>This LwM2M Object enables monitoring of parameters related to network connectivity. In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE). The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strength, Cell ID are retrieved during connected mode at least for cellular networks.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_1.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_1.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -106,7 +155,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/5</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180612-C/OMA-TS-LightweightM2M_Core-V1_1-20180612-C.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -122,7 +171,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Location-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/6</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180612-C/OMA-TS-LightweightM2M_Core-V1_1-20180612-C.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -134,11 +183,11 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0_2.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0_2.xml</LWM2M>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0_3.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0_3.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/7</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180612-C/OMA-TS-LightweightM2M_Core-V1_1-20180612-C.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -350,17 +399,17 @@
         <Item>
         <ObjectID>21</ObjectID>
         <URN>urn:oma:lwm2m:oma:21</URN>
-        <Name>Pending</Name>
-        <Description>Pending</Description>
+        <Name>LWM2M OSCORE</Name>
+        <Description>This LwM2M Object provides the keying material and related information of a LwM2M Client appropriate to access a specified LwM2M Server using OSCORE. One Object Instance MAY address a LwM2M Bootstrap-Server. These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or Bootstrap from Smartcard and MUST NOT be accessible by any other LwM2M Server. Instances of this Object are linked from Instances of Object 0 using the OSCORE Security Mode Resource of Object 0. Instances of this Object MUST NOT be linked from more than one Instance of Object 0.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
-        <LWM2M></LWM2M>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_OSCORE-v1_0.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2fLWM2M_OSCORE-v1_0.xml</LWM2M>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
-        <TS>x</TS>
-        <TSLink>0</TSLink>
+        <DDFLink>1</DDFLink>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TSLink>1</TSLink>
     </Item>
     
     <Item>
