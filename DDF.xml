@@ -91,7 +91,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -123,7 +123,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/4</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
     
@@ -155,7 +155,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/5</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -171,7 +171,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Location-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/6</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
