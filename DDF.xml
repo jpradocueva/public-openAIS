@@ -60,7 +60,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Server-v1_0.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/1</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
     
@@ -92,7 +92,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -124,7 +124,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/4</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
     
@@ -156,7 +156,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/5</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -172,7 +172,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Location-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/6</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -331,7 +331,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Portfolio-v1_0.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20171114-A/OMA-TS-LWM2M_PortfolioObj-V1_0-20171114-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20171114-A/OMA-TS-LWM2M_PortfolioObj-V1_0-20171114-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
     <Item>
@@ -376,7 +376,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_BinaryAppDataContainer-v1_0.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LwM2M_APPDATA/V1_0-20180615-A/OMA-TS-LWM2M_BinaryAppDataContainer-V1_0-20180615-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LwM2M_APPDATA/V1_0-20180615-A/OMA-TS-LWM2M_BinaryAppDataContainer-V1_0-20180615-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
     <Item>
@@ -393,7 +393,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLwM2M_EventLog-V1_0.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://openmobilealliance.org/release/LwM2M_EventLog/V1_0-20180615-A/OMA-TS-LWM2M_EventLog-V1_0-20180615-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LwM2M_EventLog/V1_0-20180615-A/OMA-TS-LWM2M_EventLog-V1_0-20180615-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
         <Item>
