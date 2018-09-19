@@ -29,7 +29,7 @@
 				<Description>This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.</Description>
 			</Item>
 			<Item ID="5852">
-				<Name>On time</Name>
+				<Name>On Time</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
