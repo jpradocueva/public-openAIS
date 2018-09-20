@@ -60,7 +60,7 @@
                 <Description>The maximum value set on the actuator since power ON or reset.</Description>
             </Item>
             <Item ID="5605">
-                <Name>Reset Min and Max Measured Values</Name>
+                <Name>Reset Min and Max Measured Value</Name>
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
