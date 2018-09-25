@@ -3287,7 +3287,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
       
       <Item ID="6036">
 
-        <Name>rsrq</Name>
+        <Name>rsrp</Name>
 
          <Operations>R</Operations>
 
