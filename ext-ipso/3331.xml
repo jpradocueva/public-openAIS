@@ -30,7 +30,7 @@
                 <Description>Measurement Units Definition e.g. “Cel” for Temperature in Celsius.</Description>
             </Item>
             <Item ID="5822">
-                <Name>Reset Cumulative Energy</Name>
+                <Name>Reset Cumulative energy</Name>
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
