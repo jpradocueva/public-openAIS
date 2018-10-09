@@ -307,7 +307,7 @@
 
         <Operations>E</Operations>
 
-        <Type>Opaque</Type>
+        <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
         
@@ -713,7 +713,7 @@
 
         <Operations>E</Operations>
 
-        <Type>Opaque</Type>
+        <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
         
@@ -1375,7 +1375,7 @@
 
         <Operations>E</Operations>
 
-        <Type>Opaque</Type>
+        <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
         
@@ -1994,7 +1994,7 @@
 
         <Operations>E</Operations>
 
-        <Type>Opaque</Type>
+        <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
 
@@ -2449,7 +2449,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Operations>E</Operations>
 
-        <Type>Opaque</Type>
+        <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
 
