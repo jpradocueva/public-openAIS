@@ -5,6 +5,8 @@
 		<Description1>Description: This Object is used for demand-response load control and other load control in automation application (not limited to power).</Description1>
 		<ObjectID>3310</ObjectID>
 		<ObjectURN>urn:oma:lwm2m:ext:3310</ObjectURN>
+		<LWM2MVersion>1.0</LWM2MVersion>
+                <ObjectVersion>1.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
@@ -39,7 +41,7 @@
 				<Description>The duration of the load control event.</Description>
 			</Item>
 			<Item ID="5826">
-				<Name>Criticality Level</Name>
+				<Name>Critical Level</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
@@ -49,7 +51,7 @@
 				<Description>The criticality of the event.  The device receiving the event will react in an appropriate fashion for the device.</Description>
 			</Item>
 			<Item ID="5827">
-				<Name>Avg Load Adj Pct</Name>
+				<Name>Avg Load AdjPct</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
