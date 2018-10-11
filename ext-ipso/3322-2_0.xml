@@ -17,6 +17,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         </Description1>
         <ObjectID>3322</ObjectID>
         <ObjectURN>urn:oma:lwm2m:ext:3322</ObjectURN>
+        <LWM2MVersion>1.0</LWM2MVersion>
+        <ObjectVersion>2.0</ObjectVersion>
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Resources>
