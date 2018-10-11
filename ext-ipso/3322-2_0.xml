@@ -16,7 +16,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         <Description1>This IPSO object should be used with a load sensor (as in a scale) to report the applied weight or force. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is kilograms (ucum: Kg).
         </Description1>
         <ObjectID>3322</ObjectID>
-        <ObjectURN>urn:oma:lwm2m:ext:3322</ObjectURN>
+        <ObjectURN>urn:oma:lwm2m:ext:3322:2.0</ObjectURN>
         <LWM2MVersion>1.0</LWM2MVersion>
         <ObjectVersion>2.0</ObjectVersion>
         <MultipleInstances>Multiple</MultipleInstances>
