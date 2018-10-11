@@ -6,6 +6,8 @@
 Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description1>
 		<ObjectID>3300</ObjectID>
 		<ObjectURN>urn:oma:lwm2m:ext:3300</ObjectURN>
+		<LWM2MVersion>1.0</LWM2MVersion>
+                <ObjectVersion>2.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
