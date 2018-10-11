@@ -7,6 +7,8 @@
 		<Description1>Generic digital input for non-specific sensors</Description1>
 		<ObjectID>3200</ObjectID>
 		<ObjectURN>urn:oma:lwm2m:ext:3200</ObjectURN>
+		<LWM2MVersion>1.0</LWM2MVersion>
+                <ObjectVersion>2.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
