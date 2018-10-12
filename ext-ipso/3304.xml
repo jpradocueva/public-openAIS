@@ -15,9 +15,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		<Name>Humidity</Name>
 		<Description1>Description: This IPSO object should be used with a humidity sensor to report a humidity measurement.  It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. An example measurement unit is relative humidity as a percentage (ucum:%).</Description1>
 		<ObjectID>3304</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:ext:3304:2.0</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:ext:3304</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
-                <ObjectVersion>2.0</ObjectVersion>
+                <ObjectVersion>1.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
