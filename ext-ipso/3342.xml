@@ -16,6 +16,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         <Description1>This IPSO object should be used with an On/Off switch to report the state of the switch.</Description1>
         <ObjectID>3342</ObjectID>
         <ObjectURN>urn:oma:lwm2m:ext:3342</ObjectURN>
+        <LWM2MVersion>1.0</LWM2MVersion>
+        <ObjectVersion>1.0</ObjectVersion>        
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Resources>
@@ -40,7 +42,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <Description>The number of times the input transitions from 0 to 1.</Description>
             </Item>
             <Item ID="5852">
-                <Name>On Time</Name>
+                <Name>On time</Name>
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
