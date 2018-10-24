@@ -1287,7 +1287,7 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
         <Units>%</Units>
 
