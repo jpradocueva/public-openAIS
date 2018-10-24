@@ -1262,9 +1262,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration>0-100</RangeEnumeration>
+        <RangeEnumeration>0-1</RangeEnumeration>
 
-        <Units>%</Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1400,9 +1400,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration>0-100</RangeEnumeration>
+        <RangeEnumeration>0-1</RangeEnumeration>
 
-        <Units>%</Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
