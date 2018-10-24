@@ -775,19 +775,19 @@
 
       <Item ID="5526">
 
-        <Name>Mode</Name>
+        <Name>Timer Mode</Name>
 
         <Operations>RW</Operations>
 
         <Type>Integer</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration>0-4</RangeEnumeration>
 
         <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description><![CDATA[Type of timer pattern used by the patterns.]]></Description>
+        <Description><![CDATA[Type of timer pattern used by the timer. 1: One-shot, 2: On-Time or Interval, 3: Time delay on pick-up, 4: Time Delay on Drop-Out, 0: disables the timer.]]></Description>
         
         <TS></TS>
         
@@ -1246,7 +1246,7 @@
         
         <Submitter>IPSO</Submitter>
 
-        <Description><![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]></Description>
+        <Description><![CDATA[The polarity of a digital input as a Boolean (False = Normal, True = Reversed)]]></Description>
         
         <TS></TS>
         
@@ -1262,7 +1262,7 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration>0-1</RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
         <Units></Units>
 
