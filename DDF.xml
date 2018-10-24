@@ -412,6 +412,22 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <TSLink>1</TSLink>
     </Item>
     
+      <Item>
+        <ObjectID>22</ObjectID>
+        <URN>urn:oma:lwm2m:oma:22</URN>
+        <Name>Virtual Observe Notify</Name>
+        <Description>Pending</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDF></DDFLink>
+        <TS></TS>
+        <TSLink>1</TSLink>
+    </Item>
+    
     <Item>
         <ObjectID>2048</ObjectID>
         <URN>urn:oma:lwm2m:ext:2048</URN>
