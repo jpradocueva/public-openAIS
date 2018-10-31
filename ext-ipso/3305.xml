@@ -42,7 +42,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Description>The minimum active power measured by the sensor since it is ON</Description>
 			</Item>
 			<Item ID="5802">
-				<Name>Max Measured  active power</Name>
+				<Name>Max Measured active power</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
@@ -162,7 +162,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Description>Request a reactive power calibration by writing the value of a calibrated load.</Description>
 			</Item>
 			<Item ID="5820">
-				<Name>Power Factor</Name>
+				<Name>Power factor</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
