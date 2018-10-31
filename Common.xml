@@ -980,6 +980,30 @@
 
       </Item>
 
+
+      <Item ID="5535">
+
+        <Name>Calibration Offset</Name>
+
+        <Operations>RW</Operations>
+
+        <Type>Float</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>IPSO</Submitter>
+
+        <Description><![CDATA[Calibration offset value to be used to additively correct the measured value of the sensor.]]></Description>
+
+        <TS></TS>
+
+        <TSLink>0</TSLink>
+
+      </Item>
+
+
       <Item ID="5536">
 
         <Name>Current Position</Name>
@@ -1048,7 +1072,53 @@
 
       </Item>
 
+      
+      <Item ID="5539">
 
+        <Name>Max X Coordinate</Name>
+
+        <Operations>R</Operations>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>IPSO</Submitter>
+
+        <Description><![CDATA[The highest X coordinate the display supports before wrapping to the next line.]]></Description>
+
+        <TS></TS>
+
+        <TSLink>0</TSLink>
+
+      </Item>
+
+
+      <Item ID="5540">
+
+        <Name>Max Y Coordinate</Name>
+
+        <Operations>R</Operations>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>IPSO</Submitter>
+
+        <Description><![CDATA[The highest Y coordinate the display supports before wrapping to the next line.]]></Description>
+
+        <TS></TS>
+
+        <TSLink>0</TSLink>
+
+      </Item>
+
+      
       <Item ID="5541">
 
         <Name>Up Counter</Name>
@@ -1204,6 +1274,29 @@
         
         <TS></TS>
         
+        <TSLink>0</TSLink>
+
+      </Item>
+
+
+      <Item ID="5548">
+
+        <Name>Level</Name>
+
+        <Operations>RW</Operations>
+
+        <Type>Float</Type>
+
+        <RangeEnumeration>0-100</RangeEnumeration>
+
+        <Units>%</Units>
+
+        <Submitter>IPSO</Submitter>
+
+        <Description><![CDATA[Used to represent a level control such as audio volume.]]></Description>
+
+        <TS></TS>
+
         <TSLink>0</TSLink>
 
       </Item>
