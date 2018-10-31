@@ -423,9 +423,9 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
-        <DDFLink></DDFLink>
+        <DDFLink>0</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     
     <Item>
