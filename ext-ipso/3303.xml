@@ -28,7 +28,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>Last or Current Measured Value from the Sensor</Description>
 			</Item>
 			<Item ID="5601">
@@ -38,7 +38,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The minimum value measured by the sensor since power ON or reset</Description>
 			</Item>
 			<Item ID="5602">
@@ -48,7 +48,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The maximum value measured by the sensor since power ON or reset</Description>
 			</Item>
 			<Item ID="5603">
@@ -58,7 +58,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The minimum value that can be measured by the sensor</Description>
 			</Item>
 			<Item ID="5604">
@@ -68,7 +68,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The maximum value that can be measured by the sensor</Description>
 			</Item>
 			<Item ID="5701">
