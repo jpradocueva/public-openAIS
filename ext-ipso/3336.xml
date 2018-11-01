@@ -39,17 +39,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description>The decimal notation of longitude, e.g. 153.21760 (World Geodetic System 1984).</Description>
-            </Item>
-            <Item ID="5515">
-                <Name>Altitude</Name>
-                <Operations>R</Operations>
-                <MultipleInstances>Single</MultipleInstances>
-                <Mandatory>Optional</Mandatory>
-                <Type>String</Type>
-                <RangeEnumeration></RangeEnumeration>
-                <Units></Units>
-                <Description>The decimal notation of altitude in meters above sea level.</Description>
-            </Item>            
+            </Item>           
             <Item ID="5516">
                 <Name>Uncertainty</Name>
                 <Operations>R</Operations>
