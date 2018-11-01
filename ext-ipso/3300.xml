@@ -29,7 +29,7 @@ Specific object for a given range of sensors is described later in the document,
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>Last or Current Measured Value from the Sensor</Description>
 			</Item>
 			<Item ID="5701">
@@ -49,7 +49,7 @@ Specific object for a given range of sensors is described later in the document,
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The minimum value measured by the sensor since power ON or reset</Description>
 			</Item>
 			<Item ID="5602">
@@ -59,7 +59,7 @@ Specific object for a given range of sensors is described later in the document,
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The maximum value measured by the sensor since power ON or reset</Description>
 			</Item>
 			<Item ID="5603">
@@ -69,7 +69,7 @@ Specific object for a given range of sensors is described later in the document,
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The minimum value that can be measured by the sensor</Description>
 			</Item>
 			<Item ID="5604">
@@ -79,7 +79,7 @@ Specific object for a given range of sensors is described later in the document,
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The maximum value that can be measured by the sensor</Description>
 			</Item>
 			<Item ID="5750">
