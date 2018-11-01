@@ -113,7 +113,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <Description>Counts the number of times the timer output transitions from 0 to 1.</Description>
             </Item>
             <Item ID="5526">
-                <Name>Mode</Name>
+                <Name>Timer Mode</Name>
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
