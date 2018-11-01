@@ -97,7 +97,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>String</Type>
+                <Type>Float</Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description>Read or Write the current calibration coefficient</Description>
