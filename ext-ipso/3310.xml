@@ -48,7 +48,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Min</Units>
+				<Units>min</Units>
 				<Description>The duration of the load control event.</Description>
 			</Item>
 			<Item ID="5826">
