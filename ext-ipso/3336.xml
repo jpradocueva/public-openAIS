@@ -20,7 +20,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Resources>
-            <Item ID="5513">
+            <Item ID="5514">
                 <Name>Latitude</Name>
                 <Operations>R</Operations>
                 <MultipleInstances>Single</MultipleInstances>
@@ -30,7 +30,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <Units></Units>
                 <Description>The decimal notation of latitude, e.g. -43.5723 (World Geodetic System 1984).</Description>
             </Item>
-            <Item ID="5514">
+            <Item ID="5515">
                 <Name>Longitude</Name>
                 <Operations>R</Operations>
                 <MultipleInstances>Single</MultipleInstances>
