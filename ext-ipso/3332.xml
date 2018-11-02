@@ -16,7 +16,7 @@
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Float</Type>
                 <RangeEnumeration>0-360</RangeEnumeration>
-                <Units>deg</Units>
+                <Units>degree</Units>
                 <Description>This indicates the compass direction of some phenomenon (i.e. direction of travel, wind direction…).</Description>
             </Item>
             <Item ID="5601">
