@@ -58,8 +58,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
                 <Type>Float</Type>
-                <RangeEnumeration>Same as Measured Value</RangeEnumeration>
-                <Units>Same as Measured Value</Units>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
                 <Description>The minimum value set on the actuator since power ON or reset.</Description>
             </Item>
             <Item ID="5602">
@@ -68,8 +68,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
                 <Type>Float</Type>
-                <RangeEnumeration>Same as Measured Value</RangeEnumeration>
-                <Units>Same as Measured Value</Units>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
                 <Description>The maximum value set on the actuator since power ON or reset.</Description>
             </Item>
             <Item ID="5605">
@@ -88,8 +88,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
                 <Type>Float</Type>
-                <RangeEnumeration>Same as Measured Value</RangeEnumeration>
-                <Units>Same as Measured Value</Units>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
                 <Description>The minimum value that can be measured by the sensor.</Description>
             </Item>
             <Item ID="5520">
@@ -98,8 +98,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
                 <Type>Float</Type>
-                <RangeEnumeration>Same as Measured Value</RangeEnumeration>
-                <Units>Same as Measured Value</Units>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
                 <Description>The maximum value that can be measured by the sensor.</Description>
             </Item>
             <Item ID="5750">
