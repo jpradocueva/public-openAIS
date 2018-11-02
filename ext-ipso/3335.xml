@@ -29,7 +29,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <Mandatory>Mandatory</Mandatory>
                 <Type>String</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units></Units>
+                <Units>s</Units>
                 <Description>A string representing a value in some colour space.</Description>
             </Item>
             <Item ID="5701">
