@@ -60,7 +60,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description>The application type of the sensor or actuator as a string depending on the use case.</Description>
-			</Item></Resources>
+			</Item>
+		</Resources>
 		<Description2></Description2>
 	</Object>
 </LWM2M>
