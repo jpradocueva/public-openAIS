@@ -1073,52 +1073,6 @@
       </Item>
 
       
-      <Item ID="5539">
-
-        <Name>Max X Coordinate</Name>
-
-        <Operations>R</Operations>
-
-        <Type>Integer</Type>
-
-        <RangeEnumeration></RangeEnumeration>
-
-        <Units></Units>
-
-        <Submitter>IPSO</Submitter>
-
-        <Description><![CDATA[The highest X coordinate the display supports before wrapping to the next line.]]></Description>
-
-        <TS></TS>
-
-        <TSLink>0</TSLink>
-
-      </Item>
-
-
-      <Item ID="5540">
-
-        <Name>Max Y Coordinate</Name>
-
-        <Operations>R</Operations>
-
-        <Type>Integer</Type>
-
-        <RangeEnumeration></RangeEnumeration>
-
-        <Units></Units>
-
-        <Submitter>IPSO</Submitter>
-
-        <Description><![CDATA[The highest Y coordinate the display supports before wrapping to the next line.]]></Description>
-
-        <TS></TS>
-
-        <TSLink>0</TSLink>
-
-      </Item>
-
-      
       <Item ID="5541">
 
         <Name>Up Counter</Name>
