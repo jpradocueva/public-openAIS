@@ -3396,7 +3396,8 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
         
         <TSLink>0</TSLink>
 
-      </Item>     
+      </Item>
+      
       <Item ID="6040">    
       <Name>Sample Frequency</Name>     
       <Operations>RW</Operations>     
