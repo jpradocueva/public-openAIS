@@ -27,7 +27,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>Defined by “Units” resource.</Units>
+				<Units></Units>
 				<Description>The setpoint value.</Description>
 			</Item>
 			<Item ID="5701">
@@ -47,7 +47,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
+				<Units>s</Units>
 				<Description>A string representing a value in some color space</Description>
 			</Item>
 			<Item ID="5750">
