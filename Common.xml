@@ -2135,7 +2135,7 @@
 
         <Type>Integer</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration>0-3</RangeEnumeration>
 
         <Units></Units>
 
