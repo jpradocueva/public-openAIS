@@ -52,12 +52,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				<Description>The duration of the load control event.</Description>
 			</Item>
 			<Item ID="5826">
-				<Name>Critical Level</Name>
+				<Name>Criticality Level</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Integer</Type>
-				<RangeEnumeration></RangeEnumeration>
+				<RangeEnumeration>0-3</RangeEnumeration>
 				<Units></Units>
 				<Description>The criticality of the event.  The device receiving the event will react in an appropriate fashion for the device.</Description>
 			</Item>
