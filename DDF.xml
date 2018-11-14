@@ -2480,7 +2480,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10244.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS>0</TS>
+        <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
@@ -2512,7 +2512,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10246.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS>0</TS>
+        <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
@@ -2544,7 +2544,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10248.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS>0</TS>
+        <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
