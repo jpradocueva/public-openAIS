@@ -136,8 +136,7 @@ This Object provides the information to represent a generic (district) heat or c
         <Type>Integer</Type>
         <RangeEnumeration>
         </RangeEnumeration>
-        <Units>
-        </Units>
+        <Units></Units>
         <Description><![CDATA[Error code reported by the meter]]></Description>
       </Item>
       <Item ID="5800">
@@ -146,8 +145,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>W</Units>
         <Description><![CDATA[The current active power]]></Description>
       </Item>
@@ -157,8 +155,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Mandatory</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>W</Units>
         <Description><![CDATA[The maximum active power measured by the sensor since it is ON]]></Description>
       </Item>
@@ -168,8 +165,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>Wh</Units>
         <Description><![CDATA[The cumulative active power since the last cumulative energy reset or device start]]></Description>
       </Item>
@@ -179,8 +175,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>Celcius</Units>
         <Description><![CDATA[Flow temperature]]></Description>
       </Item>
@@ -190,8 +185,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>Celcius</Units>
         <Description><![CDATA[The maximum flow temperature measured by the meter]]></Description>
       </Item>
@@ -201,8 +195,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>Celcius</Units>
         <Description><![CDATA[Return temperature]]></Description>
       </Item>
@@ -212,8 +205,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>Celcius</Units>
         <Description><![CDATA[The maximum return temperature measured by the meter ]]></Description>
       </Item>
@@ -223,8 +215,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>Kelvin</Units>
         <Description><![CDATA[Temperature difference]]></Description>
       </Item>
@@ -234,8 +225,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>m^3 / s</Units>
         <Description><![CDATA[The flow rate]]></Description>
       </Item>
@@ -245,8 +235,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>m^3 / s</Units>
         <Description><![CDATA[The maximum flow measured by the meter ]]></Description>
       </Item>
@@ -256,8 +245,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>m^3</Units>
         <Description><![CDATA[The cumulative flow volume measured on the flow pipe]]></Description>
       </Item>
@@ -267,8 +255,7 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Float</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
         <Units>m^3</Units>
         <Description><![CDATA[The cumulative flow volume measured on the return pipe]]></Description>
       </Item>
@@ -278,10 +265,8 @@ This Object provides the information to represent a generic (district) heat or c
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Time</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
-        <Units>
-        </Units>
+        <RangeEnumeration></RangeEnumeration>
+        <Units></Units>
         <Description><![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]></Description>
       </Item>
     </Resources>
