@@ -2080,10 +2080,10 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>OpenAIS</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
-        <LWM2M></LWM2M>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3387.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3387.xml</LWM2M>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
@@ -2096,10 +2096,10 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>OpenAIS</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
-        <LWM2M></LWM2M>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3388.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3388.xml</LWM2M>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
@@ -2112,10 +2112,10 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>OpenAIS</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
-        <LWM2M></LWM2M>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3389.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3389.xml</LWM2M>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
