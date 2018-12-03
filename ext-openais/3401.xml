@@ -64,11 +64,9 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Opaque</Type>
-				<RangeEnumeration>0: Hardware_Error
-				1: Quality_Error
-				2: Invalid_State</RangeEnumeration>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[Error status is a bit coded value that shows all current errors on the object. The error status changes as soon as a new error occurs or an old one is resolved.]]></Description>
+				<Description><![CDATA[Error status is a bit coded value that shows all current errors on the object. The error status changes as soon as a new error occurs or an old one is resolved. Bitwise: 0 (LSB): Hardware_Error, 1: Quality_Error, 2: Invalid_State]]></Description>
 			</Item>
 			<Item ID="908">
 				<Name>Mounting Location</Name>

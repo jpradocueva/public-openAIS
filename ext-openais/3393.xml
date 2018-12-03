@@ -71,7 +71,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>String</Type>
+				<Type>ObjLink</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Link to the Object Instance in CoRE Link Format [RFC6690](https://tools.ietf.org/html/rfc6690)]]></Description>
@@ -161,7 +161,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Opaque</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource allows to perform On/Off Switch operations with additional input arguments on a light point:\n- *arg0: Action* - the action that is to be performed On or Off\n- *arg1: Intensity* - final intensity value\n- *arg2: Time* - transition time with 100ms resolution\n\t\t\t\nEither arg0: Action or arg1: Intensity need to be present.\nSome examples:\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<object-instance>/117 {0:false,2:2}`  \nor\n`POST coap://<target_IP_address>/<dir>/<Obj_ID>/<object-instance>/117 {1:0,2:2}` \nsets the light point to Off and takes 200ms to set the intensity to '0'\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<object-instance>/117 {0:true,2:2}`  \nsets the light point to On and takes 200ms to set the intensity to the intensity that was active before the lightpoint was switched off.\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<object-instance>/117 {1:1,2:2}` \nsets the light point to On and takes 200ms to set the intensity to '1'\n\t\t\t\n**Note:** When the optional argument time is not given, or if its value is empty the default configuration value is used.\nA request on this Resource will immediately impact the value of 'On/Off Status' and a continuous update of 'Remaining Transition Time' and 'Current Intensity' until the Switch operation is cloncluded.]]></Description>
@@ -171,7 +171,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Boolean</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource allows to perform 'Dim' operations on a light point:\n- *Direction* [mandatory] dim direction (UP=brighter, DOWN=darker)\n**Note:** During this process, the 'Current Intensity' and 'Remaining Transition Time' are continuously updated.If this Resource is executed while another intensity variation process is running, the ongoing process is stopped and the dimming process begins using as starting point the intensity value at that specific moment.\n\t\t\t\nSome examples:\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<obj_instance>/118 0`  \ndims the light points down.\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<obj_instance>/118 1`  \ndims the light point up.\n\t\t\t\t\nDimming is also possible during off. This effects the intensity that 'On' requests without requested intensity will execute.]]></Description>
@@ -181,7 +181,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>String</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[When executed, it immediately stops all ongoing transition process (Set Intensity or Dim). 'Current Intensity' maintains the value it has at that moment and 'Remaining Transition Time' is set to '0'. Payload is not required, however, a success/failure message is recommended.]]></Description>
@@ -191,20 +191,20 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Opaque</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This resource allows to increase and decrease the intensity of the light point by a given step size relative to the current intensity. \nE.g. a decrease by 0.2 of a current intensity of 0.5 results in an intensity of 0.4.\nThe following paramters are used:\n- *arg0: Direction* - step direction (true=brighter, false=darker)\n- *arg1: Step Size* - the size of the step, relative to the current intensity\n- *arg2: Transition Time* - transition time with 100ms resolution\n\t\t\t\t\n**Note:** During this process, the 'Remaining Transition Time' and 'Current Intensity' are continuously updated.\nIf this Resource is executed while another intensity variation process is running, the ongoing is stopped and this new process is started, using the current intensity value as a starting point.]]></Description>
 			</Item>
 			<Item ID="902">
 				<Name>Recall Scene</Name>
-				<Operations>W</Operations>
+				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[When executed, the scene with the given ID is recalled.]]></Description>
+				<Description><![CDATA[When written, the scene with the given ID is recalled.]]></Description>
 			</Item>
 			<Item ID="905">
 				<Name>Debug Mode Enabled</Name>
@@ -221,7 +221,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type></Type>
+				<Type>Boolean</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Inject test events into the system when debug mode is enabled. Event definition is vendor specific.]]></Description>

@@ -61,7 +61,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>String</Type>
+				<Type>ObjLink</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Link to the Object Instance in CoRE Link Format [RFC6690](https://tools.ietf.org/html/rfc6690)]]></Description>
@@ -151,7 +151,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Opaque</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource allows to set the colour temperature to an absolute value. Possible arguments are:\n- *arg0: Colour Temperature* - final colour temperature value\n- *arg1: Transition Time* - transition time with 100ms resolution\n\t\t\t\n**Note:** When the optional argument time is not given, or if its value is empty the default configuration value is used.\nA request on this Resource will immediately update 'Remaining Transition Time' and 'Current Colour Temperature' until the Set Colour Temperature operation is cloncluded.]]></Description>
@@ -161,7 +161,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Boolean</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource allows to change the colour temperature relatively:\n- *Direction* [mandatory] direction of colour temperature change\n**Note:** During this process, the 'Current Colour Temperature' and 'Remaining Transition Time' are continuously updated. If this Resource is executed while another colour temperature variation process is running, the ongoing process is stopped and the relative change process begins using as starting point the colour temperature value at that specific moment.\n\t\t\t\nSome examples:\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<obj_instance>/118 0`  \nreduces the colour temperature.\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<obj_instance>/118 1`  \nincreases the colour temperature.]]></Description>
@@ -174,14 +174,14 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Type></Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[When executed, it immediately stops all ongoing transition processes. 'Current Colour Temperature' maintains the value it has at that moment and 'Remaining Transition Time' is set to '0'. Payload is not required, however, a success/failure message is recommended.]]></Description>
+				<Description><![CDATA[When executed, it immediately stops all ongoing transition processes. 'Current Colour Temperature' maintains the value it has at that moment and 'Remaining Transition Time' is set to '0'.]]></Description>
 			</Item>
 			<Item ID="145">
 				<Name>Step Colour Temperature</Name>
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Opaque</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This resource allows to increase and decrease the colour temperature of the light point by a given step size. \nThe following paramters are used:\n- *arg0: Direction* - step direction (true=increase, false=decrease)\n- *arg1: Step Size* - the size of the step\n- *arg2: Transition Time* - transition time with 100ms resolution\n\t\t\t\t\n**Note:** During this process, the 'Remaining Transition Time' and 'Current Colour Temperature' are continuously updated.\nIf this Resource is executed while another colour temperature variation process is running, the ongoing is stopped and this new process is started, using the current colour temperature value as a starting point.]]></Description>
@@ -191,10 +191,10 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[When executed, the scene with the given ID is recalled.]]></Description>
+				<Description><![CDATA[When written, the scene with the given ID is recalled.]]></Description>
 			</Item>
 			<Item ID="905">
 				<Name>Debug Mode Enabled</Name>
@@ -211,7 +211,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type></Type>
+				<Type>Boolean</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Inject test events into the system when debug mode is enabled. Event definition is vendor specific.]]></Description>
