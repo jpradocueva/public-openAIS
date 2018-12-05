@@ -32,8 +32,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-16 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-16</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[LWM2M Object versioning label.]]></Description>
 			</Item>
 			<Item ID="901">
@@ -42,8 +42,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-256 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-256</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Resource to hold a documentary text description of the object.]]></Description>
 			</Item>
 			<Item ID="932">

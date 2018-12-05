@@ -32,8 +32,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-16 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-16</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[LWM2M Object versioning label.]]></Description>
 			</Item>
 			<Item ID="901">
@@ -42,8 +42,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-256 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-256</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Resource to hold a documentary text description of the object.]]></Description>
 			</Item>
 			<Item ID="907">
@@ -52,24 +52,9 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Opaque</Type>
-				<RangeEnumeration>0: Communication_Error
-				1: Power_Supply_Error
-				2: Firmware_Error
-				3: Over_Temperature
-				4: Vendor_Specific_Error_1
-				5: Vendor_Specific_Error_2
-				6: Vendor_Specific_Error_3
-				7: Vendor_Specific_Error_4
-				8: Vendor_Specific_Error_5
-				9: Vendor_Specific_Error_6
-				10: Vendor_Specific_Error_7
-				11: Vendor_Specific_Error_8
-				12: Vendor_Specific_Error_9
-				13: Vendor_Specific_Error_10
-				14: Vendor_Specific_Error_11
-				15: Vendor_Specific_Error_12</RangeEnumeration>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[Error status is a bit coded value that shows all current errors on the object. The error status changes as soon as a new error occurs or an old one is resolved.]]></Description>
+				<Description><![CDATA[Error status is a bit coded value that shows all current errors on the object. The error status changes as soon as a new error occurs or an old one is resolved. Bitwise: 0 (LSB): Communication_Error, 1: Power_Supply_Error, 2: Firmware_Error, 3: Over_Temperature, 4: Vendor_Specific_Error_1, 5: Vendor_Specific_Error_2, 6: Vendor_Specific_Error_3, 7: Vendor_Specific_Error_4, 8: Vendor_Specific_Error_5, 9: Vendor_Specific_Error_6, 10: Vendor_Specific_Error_7, 11: Vendor_Specific_Error_8, 12: Vendor_Specific_Error_9, 13: Vendor_Specific_Error_10, 14: Vendor_Specific_Error_11, 15: Vendor_Specific_Error_12]]></Description>
 			</Item>
 			<Item ID="500">
 				<Name>OEM ID</Name>
@@ -77,8 +62,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-64 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-64</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[OEM ID: Identifies the OEM product (using its GTIN) that has this (electronic) device built in]]></Description>
 			</Item>
 			<Item ID="501">
@@ -87,8 +72,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-64 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-64</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Human readable OEM ID, e.g. the OEM company and product name that has this (electronic) device built in]]></Description>
 			</Item>
 			<Item ID="929">
@@ -116,7 +101,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>R</Operations>
 				<MultipleInstances>Multiple</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>String</Type>
+				<Type>CoreLink</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Link to Physical Object Instances that are part of this device in CoRE Link Format [RFC6690](https://tools.ietf.org/html/rfc6690)]]></Description>
@@ -138,8 +123,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>0.1W</Units>
-				<Description><![CDATA[The actual power usage of the device]]></Description>
+				<Units>W</Units>
+				<Description><![CDATA[The actual power usage of the device. Scaling is 0.1W / Unit]]></Description>
 			</Item>
 			<Item ID="912">
 				<Name>Accuracy Class</Name>
@@ -147,8 +132,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-64 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-64</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[The accuracy class of the energy sensor on the device (using either % accuracy or a letter that defines the accuracy class)]]></Description>
 			</Item>
 			<Item ID="908">
@@ -157,8 +142,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>1..64 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>1..64</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Describes the location of the device within the building. The content of the string is site specific.]]></Description>
 			</Item>
 			<Item ID="505">
