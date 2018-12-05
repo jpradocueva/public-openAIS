@@ -31,8 +31,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-16 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-16</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[LWM2M Object versioning label.]]></Description>
 			</Item>
 			<Item ID="901">
@@ -41,8 +41,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-256 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-256</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Resource to hold a documentary text description of the object.]]></Description>
 			</Item>
 			<Item ID="407">
@@ -71,12 +71,9 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Opaque</Type>
-				<RangeEnumeration>0: Hardware_Error
-				1: Temperature_Error
-				2: Range_Error
-				3: Quality_Error</RangeEnumeration>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[Error status is a bit coded value that shows all current errors on the object. The error status changes as soon as a new error occurs or an old one is resolved.]]></Description>
+				<Description><![CDATA[Error status is a bit coded value that shows all current errors on the object. The error status changes as soon as a new error occurs or an old one is resolved. Bitwise: 0 (LSB): Hardware_Error, 1: Temperature_Error, 2: Range_Error, 3: Quality_Error]]></Description>
 			</Item>
 			<Item ID="908">
 				<Name>Mounting Location</Name>
@@ -84,8 +81,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>1..64 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>1..64</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Describes the location of the device within the building. The content of the string is site specific.]]></Description>
 			</Item>
 		</Resources>

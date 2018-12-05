@@ -42,8 +42,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-256 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-256</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Resource to hold a documentary text description of the object.]]></Description>
 			</Item>
 			<Item ID="0">
@@ -68,11 +68,11 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 			</Item>
 			<Item ID="5">
 				<Name>Secret Group Key</Name>
-				<Operations>RW</Operations>
+				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Opaque</Type>
-				<RangeEnumeration>0..16</RangeEnumeration>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Stores the shared symmetric key for low latency group communication.This Resource MUST NOT be readable by any server.]]></Description>
 			</Item>

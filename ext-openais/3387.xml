@@ -40,8 +40,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-256 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-256</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Resource to hold a documentary text description of the object.]]></Description>
 			</Item>
 			<Item ID="800">
@@ -116,13 +116,9 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Opaque</Type>
-				<RangeEnumeration>0: switch-on
-				1: switch-off
-				2: darker
-				3: brighter
-				4: save</RangeEnumeration>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[Configures the reaction on button events:  \n**Reaction on CLICK event:**\n* If the switch-on and switch-off bits are not set, the CLICK event is ignored.\n* If only the switch-on bit is set, the CLICK event always switches to On-State.\n* If only the switch-off bit is set, the CLICK event always switches to Off-State.\n* If the switch-on and switch-off bits are set, the CLICK event toggles between Off-State and On-State.\n\t\t\t\t\t\n**Reaction on HOLD event:**\n* If the darker and brighter bits are not set, the HOLD event is ignored.\n* If only the darker bit is set, the HOLD event always starts a dim darker process.\n* If only the brighter bit is set, the HOLD event always starts a dim brighter process.\n* If the darker and brighter bits are set, the HOLD event is allowed to toggle the dimming direction for each new dimming process.\n\t\t\t\t\t\n**Reaction on DOUBLE-CLICK event:**\n* If the save bit is not set, the DOUBLE-CLICK event is ignored.\n* If the save bit is set, the DOUBLE-CLICK event saves the current situation.]]></Description>
+				<Description><![CDATA[Configures the reaction on button events: Bitwise: 0 (LSB): switch-on, 1: switch-off, 2: darker, 3: brighter, 4: save \n**Reaction on CLICK event:**\n* If the switch-on and switch-off bits are not set, the CLICK event is ignored.\n* If only the switch-on bit is set, the CLICK event always switches to On-State.\n* If only the switch-off bit is set, the CLICK event always switches to Off-State.\n* If the switch-on and switch-off bits are set, the CLICK event toggles between Off-State and On-State.\n\t\t\t\t\t\n**Reaction on HOLD event:**\n* If the darker and brighter bits are not set, the HOLD event is ignored.\n* If only the darker bit is set, the HOLD event always starts a dim darker process.\n* If only the brighter bit is set, the HOLD event always starts a dim brighter process.\n* If the darker and brighter bits are set, the HOLD event is allowed to toggle the dimming direction for each new dimming process.\n\t\t\t\t\t\n**Reaction on DOUBLE-CLICK event:**\n* If the save bit is not set, the DOUBLE-CLICK event is ignored.\n* If the save bit is set, the DOUBLE-CLICK event saves the current situation.]]></Description>
 			</Item>
 			<Item ID="807">
 				<Name>Presence Sensor Event Configuration</Name>
@@ -130,10 +126,9 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Opaque</Type>
-				<RangeEnumeration>0: presence
-				1: absence</RangeEnumeration>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[Configures the reaction on presence sensor events:  \n* The presence bit enables or disables activities based on the presence event.  \n *Note: This setting may allow to set the 'only off' behavior.*\n* The absence bit enables or disables activities based on the absence event.]]></Description>
+				<Description><![CDATA[Configures the reaction on presence sensor events: Bitwise: 0 (LSB): presence, 1: absence \n* The presence bit enables or disables activities based on the presence event.  \n *Note: This setting may allow to set the 'only off' behavior.*\n* The absence bit enables or disables activities based on the absence event.]]></Description>
 			</Item>
 			<Item ID="909">
 				<Name>Executing Object</Name>
@@ -150,10 +145,10 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type></Type>
+				<Type>String</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[This resource is used by active control functions (in the same application group) to take over the control functionality. By executing this resource, the IP address of the origin CoAP client is added to the Active-Controller-List.\nIf no heartbeat is received after the specified time the not sending controller is taken out of the active controller list again, if there are no more active controllers this controller takes over: This is a fall-back to normal or local operation, if superseding control fails/gets lost.\n\t\t\t\t\nIf the Ghost Configuration is TRUE, the Control Function Status changes to 'ghost' if a controller is active.\n\t\t\t\t\nIf operation mode is set to remote, it will be reset to normal if the active controller list gets empty.]]></Description>
+				<Description><![CDATA[This resource is used by active control functions (in the same application group) to take over the control functionality. By writing this resource, the IP address of the origin CoAP client is added to the Active-Controller-List.\nIf no heartbeat is received after the specified time the not sending controller is taken out of the active controller list again, if there are no more active controllers this controller takes over: This is a fall-back to normal or local operation, if superseding control fails/gets lost.\n\t\t\t\t\nIf the Ghost Configuration is TRUE, the Control Function Status changes to 'ghost' if a controller is active.\n\t\t\t\t\nIf operation mode is set to remote, it will be reset to normal if the active controller list gets empty.]]></Description>
 			</Item>
 			<Item ID="905">
 				<Name>Debug Mode Enabled</Name>
@@ -170,7 +165,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type></Type>
+				<Type>Boolean</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Inject test events into the system when debug mode is enabled. Event definition is vendor specific.]]></Description>

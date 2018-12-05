@@ -42,8 +42,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-256 bytes</RangeEnumeration>
-				<Units></Units>
+				<RangeEnumeration>0-256</RangeEnumeration>
+				<Units>byte</Units>
 				<Description><![CDATA[Resource to hold a documentary text description of the object.]]></Description>
 			</Item>
 			<Item ID="125">
@@ -53,8 +53,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>0.001</Units>
-				<Description><![CDATA[This Resource represents the target colour X value requested to the Light Point.]]></Description>
+				<Units></Units>
+				<Description><![CDATA[This Resource represents the target colour X value requested to the Light Point. Scale is: 0.001]]></Description>
 			</Item>
 			<Item ID="126">
 				<Name>Target Colour Y</Name>
@@ -62,16 +62,16 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
-				<RangeEnumeration>0.001</RangeEnumeration>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[This Resource represents the target colour Y value requested to the Light Point.]]></Description>
+				<Description><![CDATA[This Resource represents the target colour Y value requested to the Light Point. Scaling is 0.001 per Unit, Value conforms to CIE color definition]]></Description>
 			</Item>
 			<Item ID="909">
 				<Name>Executing Object</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>String</Type>
+				<Type>CoreLink</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Link to the Object Instance in CoRE Link Format [RFC6690](https://tools.ietf.org/html/rfc6690)]]></Description>
@@ -93,8 +93,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>100ms</Units>
-				<Description><![CDATA[Defines the time needed to change the light point output from minimum hue/saturation to maximum hue/saturation. The resulting change rate is used for the relative changes of the colour request.]]></Description>
+				<Units>ms</Units>
+				<Description><![CDATA[Defines the time needed to change the light point output from minimum hue/saturation to maximum hue/saturation. The resulting change rate is used for the relative changes of the colour request. Scaling is 100ms per Unit]]></Description>
 			</Item>
 			<Item ID="128">
 				<Name>Colour Transition Time</Name>
@@ -103,8 +103,8 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units>100ms</Units>
-				<Description><![CDATA[Defines the default transition time to be used for 'Set_Colour' and 'Step' requests, if that request has no value specified. A value of 0 means the transaction is immediate.]]></Description>
+				<Units>ms</Units>
+				<Description><![CDATA[Defines the default transition time to be used for 'Set_Colour' and 'Step' requests, if that request has no value specified. A value of 0 means the transaction is immediate. Scaling is 100ms per unit]]></Description>
 			</Item>
 			<Item ID="129">
 				<Name>Hue Step Size</Name>
@@ -171,7 +171,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Opaque</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource allows to set the colour of a light point using the following arguments:\n- *arg0: Colour x* - final colour x value\n- *arg1: Colour y* - final colour y value\n- *arg2: Time* - transition time with 100ms resolution\n\t\t\t\n**Note:** When the optional argument time is not given, or if its value is empty the default configuration value is used.\nA request on this Resource will immediately update 'Remaining Transition Time' and 'Current Colour' until the Set Colour operation is cloncluded.]]></Description>
@@ -181,7 +181,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Boolean</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource allows to change the saturation relatively:\n- *Direction* [mandatory] direction of change\n**Note:** During this process, the 'Current Colour' and 'Remaining Transition Time' are continuously updated.If this Resource is executed while another colour variation process is running, the ongoing process is stopped and the new process begins using the actual colour as starting point.\n\t\t\t\nSome examples:\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<obj_instance>/118 0`  \ndecreases saturation.\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<obj_instance>/118 1`  \nincreases saturation.]]></Description>
@@ -191,7 +191,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Boolean</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource allows to change the hue relatively:\n- *Direction* [mandatory] direction of change\n**Note:** During this process, the 'Current Colour' and 'Remaining Transition Time' are continuously updated. If this Resource is executed while another colour variation process is running, the ongoing process is stopped and the new process begins using the colour values at that specific moment as starting point.\n\t\t\t\nSome examples:\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<obj_instance>/118 0`  \nincreases hue.\n- `POST coap://<target_IP_address>/<dir>/<Obj_ID>/<obj_instance>/118 1`  \ndecreases hue.]]></Description>
@@ -201,17 +201,17 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>String</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[When executed, it immediately stops all ongoing transition processes (absolute or relative). 'Current Colour' maintains the value it has at that moment and 'Remaining Transition Time' is set to '0'. Payload is not required, however, a success/failure message is recommended.]]></Description>
+				<Description><![CDATA[When written, it immediately stops all ongoing transition processes (absolute or relative). 'Current Colour' maintains the value it has at that moment and 'Remaining Transition Time' is set to '0'. Payload is not required, however, a success/failure message is recommended.]]></Description>
 			</Item>
 			<Item ID="135">
 				<Name>Step Saturation</Name>
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Opaque</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This resource allows to increase and decrease the saturation of the colour light point by a given step size. \nThe following paramters are used:\n- *arg0: Direction* - step direction (true=increase saturation, false=decrease saturation)\n- *arg1: Step Size* - the size of the step\n- *arg2: Transition Time* - transition time with 100ms resolution\n\t\t\t\t\n**Note:** During this process, the 'Remaining Transition Time' and 'Current Colour' are continuously updated.\nIf this Resource is executed while another colour variation process is running, the ongoing is stopped and this new process is started, using the current colour value as a starting point.]]></Description>
@@ -221,7 +221,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Opaque</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This resource allows to increase and decrease the hue of the colour light point by a given step size. \nThe following paramters are used:\n- *arg0: Direction* - step direction (true=increase hue, false=decrease hue)\n- *arg1: Step Size* - the size of the step\n- *arg2: Transition Time* - transition time with 100ms resolution\n\t\t\t\t\n**Note:** During this process, the 'Remaining Transition Time' and 'Current Colour' are continuously updated.\nIf this Resource is executed while another colour variation process is running, the ongoing is stopped and this new process is started, using the current colour value as a starting point.]]></Description>
@@ -231,7 +231,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type></Type>
+				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[When executed, the scene with the given ID is recalled.]]></Description>
@@ -251,7 +251,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type></Type>
+				<Type>Boolean</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Inject test events into the system when debug mode is enabled. Event definition is vendor specific.]]></Description>
